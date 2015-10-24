@@ -1,0 +1,27 @@
+{
+  "name": "gulpplay",
+  "version": "1.0.0",
+  "description": "Testing and demoing gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itpastorn/gulpPlay.git"
+  },
+  "keywords": [
+    "gulp",
+    "composer",
+    "phpCodeSniffer"
+  ],
+  "author": "Lars Gunther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itpastorn/gulpPlay/issues"
+  },
+  "homepage": "https://github.com/itpastorn/gulpPlay#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
