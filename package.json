@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/itpastorn/gulpPlay#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-util": "^3.0.7"
   }
 }
