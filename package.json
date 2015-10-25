@@ -23,8 +23,12 @@
   "homepage": "https://github.com/itpastorn/gulpPlay#readme",
   "devDependencies": {
     "eslint": "^1.7.3",
+    "eslint-nibble": "^1.0.0",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.0.0",
     "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "nibble": "eslint-nibble canvasintro-lint-errors.js"
   }
 }
