@@ -1,17 +1,18 @@
-'use strict'; // JSHint kommer klaga "Use the function form". Tills vidare är detta dock OK.
+"use strict"; // JSHint kommer klaga "Use the function form". Tills vidare är detta dock OK.
 
-var draw = startCanvas('maincanvas');
+draw = startCanvas("maincanvas");
 
 // Japans flagga
-draw.circle(400, 225, 100, 'red');
+draw.circle(400, 225, 100, "red");
 
-for (var i = 0; i < 100; i += 1) {
-    draw.circle(draw.randomX(), draw.randomY(), draw.randomInteger(100), draw.randomColor());
+for (var i = 0; i < 100; i += 1)
+{
+draw.circle(draw.randomX(), draw.randomY(), draw.randomInteger(100), draw.randomColor());
 }
 
 draw.clearScreen();
 
-function drawRandomCircleTimeout() {
+function drawRandomCircleTimeout () {
     draw.circle(draw.randomX(), draw.randomY(), draw.randomInteger(100), draw.randomColor());
     if ( drawRandomCircle.count < 100 ) {
         drawRandomCircle.count += 1;

@@ -4,10 +4,8 @@ var gulp = require('gulp'),
 
 gulp.task('lint', function() {
     return gulp.src('*.js')
-        .pipe(eslint({
-            configFile: '.eslintrc'
-        }))
-        .pipe(eslint.format()) // Output till konsollen
+        .pipe(eslint())
+        .pipe(eslint.format()) // Till konsollen
         .pipe(eslint.failAfterError());
 });
 gulp.task('default', ['lint'], function () {
